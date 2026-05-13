@@ -1,0 +1,192 @@
+@startuml
+class gameelement.potion.SoothingLovePotion {
++ <<Create>> SoothingLovePotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.element.DewDropElement {
++ <<Create>> DewDropElement()
+}
+
+class gameelement.element.SparkEmberElement {
++ <<Create>> SparkEmberElement()
+}
+
+interface gameelement.potion.MergeAble {
+~ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.soul.EnergySplashSoul {
+- int iconDEnergySplashSoul
+- {static} Random randomizer
++ <<Create>> EnergySplashSoul()
++ {static} int randomizeEnergySoulHP()
+}
+
+
+class gameelement.soul.PassionPopSoul {
+- int iconPassionPopSoul
+- {static} Random randomizer
++ <<Create>> PassionPopSoul()
++ {static} int randomizePassionSoulHP()
+}
+
+
+class gameelement.soul.StarloveCharmSoul {
+- int iconStarloveCharmSoul
+- {static} Random randomizer
++ <<Create>> StarloveCharmSoul()
++ {static} int randomizeStarloveSoulHP()
+}
+
+
+class gameelement.potion.DreamMistPotion {
++ <<Create>> DreamMistPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.soul.SoothingLoveSoul {
+- int iconSoothingLoveSoul
+- {static} Random randomizer
++ <<Create>> SoothingLoveSoul()
++ {static} int randomizeSoothingSoulHP()
+}
+
+
+enum gameelement.potion.PotionType {
++  DREAM_MIST
++  ENERGY_SPLASH
++  NOVA_SPARK
++  PASSION_POP
++  SOOTHING_LOVE
++  STARLOVE_CHARM
+}
+
+abstract class gameelement.soul.BaseSoul {
+- int soulHP
+- PotionType weaknessType
+- String imagePath
++ <<Create>> BaseSoul(int,PotionType,String)
++ int getSoulHP()
++ void setSoulHP(int)
++ PotionType getWeaknessType()
++ void setWeaknessType(PotionType)
++ String getImagePath()
++ void setImagePath(String)
++ boolean canbeHitByPotion(BasePotion)
++ void takeDamageFromPotion(BasePotion)
+}
+
+
+class gameelement.soul.NovaSparkSoul {
+- int iconNovaSparkSoul
+- {static} Random randomizer
++ <<Create>> NovaSparkSoul()
++ {static} int randomizeNovaSoulHP()
+}
+
+
+class gameelement.potion.StarloveCharmPotion {
+# int charmPower
++ <<Create>> StarloveCharmPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+
+class gameelement.potion.PassionPopPotion {
++ <<Create>> PassionPopPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+abstract class gameelement.element.BaseElement {
+# String name
+# String imagePath
++ <<Create>> BaseElement(String,String)
++ String getName()
++ String getImagePath()
+}
+
+
+class gameelement.element.StarDustElement {
++ <<Create>> StarDustElement()
+}
+
+abstract class gameelement.potion.BasePotion {
+# String potionName
+# PotionType potionType
+# int potionPower
+# String imagePath
+# List<Class<? extends BaseElement>> potionRecipe
++ <<Create>> BasePotion(String,String)
++ String getPotionName()
++ String getImagePath()
++ void setImagePath(String)
++ List<Class<? extends BaseElement>> getPotionRecipe()
++ void setPotionRecipe(List<Class<? extends BaseElement>>)
++ {abstract}boolean potionMatchesRecipe(List<BaseElement>)
++ void setPotionName(String)
++ PotionType getPotionType()
++ void setPotionType(PotionType)
++ int getPotionPower()
++ void setPotionPower(int)
+}
+
+
+class gameelement.element.HeartBerryElement {
++ <<Create>> HeartBerryElement()
+}
+
+interface gameelement.soul.BeAttackedAble {
++ boolean canbeHitByPotion(BasePotion)
++ void takeDamageFromPotion(BasePotion)
+}
+
+class gameelement.potion.EnergySplashPotion {
++ <<Create>> EnergySplashPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.potion.NovaSparkPotion {
++ <<Create>> NovaSparkPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.soul.DreamMistSoul {
+- int iconDreamMistSoul
+- {static} Random randomizer
++ <<Create>> DreamMistSoul()
++ {static} int randomizeDreamSoulHP()
+}
+
+
+
+
+gameelement.potion.MergeAble <|.. gameelement.potion.SoothingLovePotion
+gameelement.potion.BasePotion <|-- gameelement.potion.SoothingLovePotion
+gameelement.element.BaseElement <|-- gameelement.element.DewDropElement
+gameelement.element.BaseElement <|-- gameelement.element.SparkEmberElement
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.EnergySplashSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.EnergySplashSoul
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.PassionPopSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.PassionPopSoul
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.StarloveCharmSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.StarloveCharmSoul
+gameelement.potion.MergeAble <|.. gameelement.potion.DreamMistPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.DreamMistPotion
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.SoothingLoveSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.SoothingLoveSoul
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.NovaSparkSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.NovaSparkSoul
+gameelement.potion.MergeAble <|.. gameelement.potion.StarloveCharmPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.StarloveCharmPotion
+gameelement.potion.MergeAble <|.. gameelement.potion.PassionPopPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.PassionPopPotion
+gameelement.element.BaseElement <|-- gameelement.element.StarDustElement
+gameelement.element.BaseElement <|-- gameelement.element.HeartBerryElement
+gameelement.potion.MergeAble <|.. gameelement.potion.EnergySplashPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.EnergySplashPotion
+gameelement.potion.MergeAble <|.. gameelement.potion.NovaSparkPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.NovaSparkPotion
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.DreamMistSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.DreamMistSoul
+@enduml

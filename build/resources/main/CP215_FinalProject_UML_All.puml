@@ -1,0 +1,373 @@
+@startuml
+class gameelement.potion.SoothingLovePotion {
++ <<Create>> SoothingLovePotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.element.DewDropElement {
++ <<Create>> DewDropElement()
+}
+
+class gameelement.element.SparkEmberElement {
++ <<Create>> SparkEmberElement()
+}
+
+class gui.MainMenuScreen {
+~ {static} double BASE_WIDTH
+~ {static} int PLAY_X
+~ {static} int HOW_X
+~ {static} int CREDIT_X
++ <<Create>> MainMenuScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+class gameelement.soul.EnergySplashSoul {
+- int iconDEnergySplashSoul
+- {static} Random randomizer
++ <<Create>> EnergySplashSoul()
++ {static} int randomizeEnergySoulHP()
+}
+
+
+class gameelement.potion.DreamMistPotion {
++ <<Create>> DreamMistPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gamelogic.SoulGenerator {
+- Random randomizer
++ BaseSoul generateSoul(int)
+- List<Supplier<BaseSoul>> getSoulPoolByLevel(int)
+}
+
+
+class application.Main {
+- Stage stage
++ {static} int GAME_WIDTH
++ {static} int GAME_HEIGHT
++ void start(Stage)
++ void showMainMenuScreen()
++ void showGameScreen()
++ void showHowToPlayScreen()
++ void showCreditScreen()
++ void showLevelSelectionScreen()
++ {static} void main(String[])
+}
+
+
+class gamelogic.GameLogic {
+- int level
+- int beltSize
+- SoulGenerator orderGenerator
+- Queue<BaseSoul> soulBelt
+- int defeatedSoulCount
+- int totalSoulRequiredForEachLevel
+- BaseSoul currentSoul
+- TimeLeftManager timer
+- boolean gameOver
+- {static} int MAX_MERGE_SLOTS
+- List<BaseElement> mergeSlots
+- List<BasePotion> potionPool
++ <<Create>> GameLogic(int)
+- int getTotalSoulRequiredByLevel(int)
+- void fillSoulBeltAlgorithm()
++ void attackFirstSoul(BasePotion)
++ boolean attackSoulAt(int,BasePotion)
++ BaseSoul getFirstSoul()
++ List<BaseSoul> getSoulBeltAsList()
++ int getDefeatedSoulCount()
++ int getTotalSoulRequired()
++ void updateTimer()
++ boolean isLevelComplete()
++ boolean isGameOver()
++ int getTimeLeft()
++ boolean isTimeUp()
++ int getLevel()
++ BasePotion addElementToMerge(BaseElement)
+- BasePotion tryAutoMerge()
++ void clearMergeSlots()
++ List<BaseElement> getMergeSlots()
+}
+
+
+class gameelement.element.StarDustElement {
++ <<Create>> StarDustElement()
+}
+
+interface gameelement.soul.BeAttackedAble {
++ boolean canbeHitByPotion(BasePotion)
++ void takeDamageFromPotion(BasePotion)
+}
+
+class gameelement.potion.EnergySplashPotion {
++ <<Create>> EnergySplashPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.soul.DreamMistSoul {
+- int iconDreamMistSoul
+- {static} Random randomizer
++ <<Create>> DreamMistSoul()
++ {static} int randomizeDreamSoulHP()
+}
+
+
+class gui.LevelSelectionScreen {
+~ {static} double BASE_WIDTH
+~ {static} int LV1_X
+~ {static} int LV2_X
+~ {static} int LV3_X
+~ {static} int LV4_X
+~ {static} int LV5_X
+~ {static} int BACK_X
++ {static} int currentLevel
++ <<Create>> LevelSelectionScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+class gui.GameScreen {
+- Main main
+- GameLogic gameLogic
+- int currentLevel
+- boolean running
+- Thread timerThread
+- boolean resultAlertShown
+- Label timeLabel
+- Label progressLabel
+- Label levelLabel
+~ {static} double BASE_WIDTH
+~ {static} int BACK_X
+~ {static} int HEART_X
+~ {static} int STAR_X
+~ {static} int SPARK_X
+~ {static} int DEW_X
+~ {static} int TRASH_X
+~ {static} int MERGE_STATION_X
+~ {static} int DELIVER_STATION_X
+~ {static} int MERGE_SLOT_WIDTH
+~ {static} int POTION_ICON_SIZE
+~ {static} int SOUL_ICON_SIZE
+~ {static} int MERGE_RESULT_START_SLOT
+~ {static} int[] MERGE_SLOT_X_POSITIONS
+~ {static} int[] DELIVER_SLOT_X_POSITIONS
+~ {static} int[] STATION_SLOT_Y_POSITIONS
+- AnchorPane mergeBoard
+- AnchorPane soulBeltBoard
+- StackPane[] mergeStationSlots
+- StackPane[] soulBeltSlots
+- StackPane trashDropZone
+- BasePotion[] mergeStationPotions
+- int nextPotionSlot
++ <<Create>> GameScreen(Main,int)
+- void startTimerThread()
+- void updateTimeLabel()
++ void setButtonLayout(Button,int,int,int,int)
++ void levelLabelHandling(Label,int)
++ void timeLabelLayoutHandling(Label)
++ void progressLabelLayoutHandling(Label)
++ void backButtonConfirmationHandler(Button)
++ void updateProgressLabel()
++ void handleElementButton(BaseElement)
++ void updateMergeBoardUI()
++ void showPotionInMergeStation(BasePotion)
++ void updateSoulBeltUI()
+- AnchorPane createStationPane(int,int)
+- StackPane[] createStationSlots(AnchorPane,int[])
+- StackPane createStationSlot()
+- StackPane createTrashDropZone()
+- void clearMergeSelectionSlots()
+- int getNextPotionSlotIndex()
+- void clearStationSlots(StackPane[])
+- Node createPotionNode(BasePotion,int)
+- void setupSoulDropTargets()
+- void setupTrashDropTarget()
+- boolean attackSoulWithDraggedPotion(int,int)
+- boolean hasPotionAtSlot(int)
+- boolean removePotionFromMergeStation(int)
+- void showLevelCompleteAlert()
+- void showGameOverAlert()
+- int getPotionSlotIndex(Dragboard)
+- Node createSoulNode(BaseSoul)
+- ImageView createImageView(String,int)
+}
+
+
+interface gameelement.potion.MergeAble {
+~ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gameelement.soul.PassionPopSoul {
+- int iconPassionPopSoul
+- {static} Random randomizer
++ <<Create>> PassionPopSoul()
++ {static} int randomizePassionSoulHP()
+}
+
+
+class gameelement.soul.StarloveCharmSoul {
+- int iconStarloveCharmSoul
+- {static} Random randomizer
++ <<Create>> StarloveCharmSoul()
++ {static} int randomizeStarloveSoulHP()
+}
+
+
+class gameelement.soul.SoothingLoveSoul {
+- int iconSoothingLoveSoul
+- {static} Random randomizer
++ <<Create>> SoothingLoveSoul()
++ {static} int randomizeSoothingSoulHP()
+}
+
+
+enum gameelement.potion.PotionType {
++  DREAM_MIST
++  ENERGY_SPLASH
++  NOVA_SPARK
++  PASSION_POP
++  SOOTHING_LOVE
++  STARLOVE_CHARM
+}
+
+abstract class gameelement.soul.BaseSoul {
+- int soulHP
+- PotionType weaknessType
+- String imagePath
++ <<Create>> BaseSoul(int,PotionType,String)
++ int getSoulHP()
++ void setSoulHP(int)
++ PotionType getWeaknessType()
++ void setWeaknessType(PotionType)
++ String getImagePath()
++ void setImagePath(String)
++ boolean canbeHitByPotion(BasePotion)
++ void takeDamageFromPotion(BasePotion)
+}
+
+
+class gameelement.soul.NovaSparkSoul {
+- int iconNovaSparkSoul
+- {static} Random randomizer
++ <<Create>> NovaSparkSoul()
++ {static} int randomizeNovaSoulHP()
+}
+
+
+class gameelement.potion.StarloveCharmPotion {
+# int charmPower
++ <<Create>> StarloveCharmPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+
+class gui.HowToPlayScreen {
+~ {static} double BASE_WIDTH
+~ {static} int BACK_X
++ <<Create>> HowToPlayScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+class gameelement.potion.PassionPopPotion {
++ <<Create>> PassionPopPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gui.CreditScreen {
+~ {static} double BASE_WIDTH
+~ {static} int BACK_X
++ <<Create>> CreditScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+abstract class gameelement.element.BaseElement {
+# String name
+# String imagePath
++ <<Create>> BaseElement(String,String)
++ String getName()
++ String getImagePath()
+}
+
+
+abstract class gameelement.potion.BasePotion {
+# String potionName
+# PotionType potionType
+# int potionPower
+# String imagePath
+# List<Class<? extends BaseElement>> potionRecipe
++ <<Create>> BasePotion(String,String)
++ String getPotionName()
++ String getImagePath()
++ void setImagePath(String)
++ List<Class<? extends BaseElement>> getPotionRecipe()
++ void setPotionRecipe(List<Class<? extends BaseElement>>)
++ {abstract}boolean potionMatchesRecipe(List<BaseElement>)
++ void setPotionName(String)
++ PotionType getPotionType()
++ void setPotionType(PotionType)
++ int getPotionPower()
++ void setPotionPower(int)
+}
+
+
+class gameelement.element.HeartBerryElement {
++ <<Create>> HeartBerryElement()
+}
+
+class gameelement.potion.NovaSparkPotion {
++ <<Create>> NovaSparkPotion()
++ boolean potionMatchesRecipe(List<BaseElement>)
+}
+
+class gamelogic.TimeLeftManager {
+- {static} int DEFAULT_TIME_LEFT
+- {static} int[] TOTAL_TIME_BY_LEVEL
+- int totalTimeLeft
++ <<Create>> TimeLeftManager(int)
++ void decreaseTime()
++ int getTotalTimeFromLevel(int)
++ boolean isTimeUp()
++ int getTimeLeft()
+}
+
+
+
+
+gameelement.potion.MergeAble <|.. gameelement.potion.SoothingLovePotion
+gameelement.potion.BasePotion <|-- gameelement.potion.SoothingLovePotion
+gameelement.element.BaseElement <|-- gameelement.element.DewDropElement
+gameelement.element.BaseElement <|-- gameelement.element.SparkEmberElement
+javafx.scene.layout.AnchorPane <|-- gui.MainMenuScreen
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.EnergySplashSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.EnergySplashSoul
+gameelement.potion.MergeAble <|.. gameelement.potion.DreamMistPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.DreamMistPotion
+javafx.application.Application <|-- application.Main
+gameelement.element.BaseElement <|-- gameelement.element.StarDustElement
+gameelement.potion.MergeAble <|.. gameelement.potion.EnergySplashPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.EnergySplashPotion
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.DreamMistSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.DreamMistSoul
+javafx.scene.layout.AnchorPane <|-- gui.LevelSelectionScreen
+javafx.scene.layout.AnchorPane <|-- gui.GameScreen
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.PassionPopSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.PassionPopSoul
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.StarloveCharmSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.StarloveCharmSoul
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.SoothingLoveSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.SoothingLoveSoul
+gameelement.soul.BeAttackedAble <|.. gameelement.soul.NovaSparkSoul
+gameelement.soul.BaseSoul <|-- gameelement.soul.NovaSparkSoul
+gameelement.potion.MergeAble <|.. gameelement.potion.StarloveCharmPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.StarloveCharmPotion
+javafx.scene.layout.AnchorPane <|-- gui.HowToPlayScreen
+gameelement.potion.MergeAble <|.. gameelement.potion.PassionPopPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.PassionPopPotion
+javafx.scene.layout.AnchorPane <|-- gui.CreditScreen
+gameelement.element.BaseElement <|-- gameelement.element.HeartBerryElement
+gameelement.potion.MergeAble <|.. gameelement.potion.NovaSparkPotion
+gameelement.potion.BasePotion <|-- gameelement.potion.NovaSparkPotion
+@enduml

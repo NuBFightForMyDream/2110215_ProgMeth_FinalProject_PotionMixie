@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3af95ef6-b1c4-418c-907a-a1dd63c76b47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/src/main/java/Lecture02_Collection/ArrayCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/src/main/java/Lecture02_Collection/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP211_Data_Structure_With_Java_SPJ/src/main/java/Lecture02_Collection/TestCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/src/main/java/fighters/derived/Guildmaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/src/main/java/fighters/derived/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/src/main/java/fighters/derived/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_04_GuildMasterRevenge/src/main/resources/Final_2110215_2019-2_CoverPage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_05_Bingo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_05_Bingo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_05_Bingo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_05_Bingo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2019_05_Bingo/src/main/resources/Final_2110215_2019-2_CoverPage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/discount/FreeDiscountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/discount/PercentDiscountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/discount/Sellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/logic/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/logic/BillItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/logic/ShopUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/products/BaseProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/products/FreeDiscountProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/java/products/PercentDiscountProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/resources/CP215_Final2020_04_SmokeSales.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/main/resources/Exam2Part2ProvidedCodes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/test/java/grader/BaseProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/test/java/grader/FreeDiscountProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SmokeSales/src/test/java/grader/PercentDiscountProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_04_SpaceChess/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/java/gui/ControlPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/java/gui/TicTacToeCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/java/gui/TicTacToePane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/java/logic/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/java/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/resources/CP215_Final2020_05_06_GUI_Threads.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/resources/o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215 Final Exam Practices/CP215_Final2020_05_TicTacToe/src/main/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/main/java/logic/ItemCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/main/resources/CP215_Lab_2023_01_ItemInventory.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/main/resources/blanklist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/main/resources/duplist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/main/resources/newitem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/test/java/grader/InventoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/test/java/grader/ItemCounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/test/java/grader/ItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/test/java/grader/ItemUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2023_Labs/CP215_Lab_2023_01_ItemInventory/src/test/java/grader/MarketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/java/logic/components/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/java/logic/components/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/java/logic/components/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/java/logic/components/Ore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/java/logic/components/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/java/logic/components/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/java/logic/components/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_01_DungeonGame/src/main/resources/CP215_Lab_2024_01_DungeonGame.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_02_LopburiMonkeyWar/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_02_LopburiMonkeyWar/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_02_LopburiMonkeyWar/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_02_LopburiMonkeyWar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_02_LopburiMonkeyWar/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_2024_Lab_02_LopburiMonkeyWar/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_Lab_2024_03_LannaGhostWar/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_Lab_2024_03_LannaGhostWar/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_Lab_2024_03_LannaGhostWar/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_Lab_2024_03_LannaGhostWar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_Lab_2024_03_LannaGhostWar/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_2024_Labs/CP215_Lab_2024_03_LannaGhostWar/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/src/main/java/application/NoteApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/src/main/java/application/NoteApplicationFromScratch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Exercise_05/CP215_Exercise_05_NoteApplication/src/main/resources/2110215_Exercise5_2019_NoteApplication.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/BaseElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/DewDropElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/HeartBerryElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/SparkEmberElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/StarDustElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/BasePotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/DreamMistPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/EnergySplashPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/MergeAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/NovaSparkPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/PassionPopPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/PotionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/SoothingLovePotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/StarloveCharmPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/BaseSoul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/BeAttackedAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/DreamMistSoul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/EnergySplashSoul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/NovaSparkSoul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/PassionPopSoul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/SoothingLoveSoul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/StarloveCharmSoul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/SoulGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/TimeLeftManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/java/gui/ControlGridPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/java/gui/ControlPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/java/gui/MineSweeperPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/resources/bitcoin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/resources/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/resources/mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/resources/o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_05_MineSweeper/src/main/resources/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/KeyButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/KeyboardPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/LetterBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/PlayerPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/TimerPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/TurnPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/WDColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/component/WordCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/logic/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/logic/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/logic/WordStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/java/logic/WordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lab_06_WordRoyale/src/main/resources/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/.idea/CP215_Lec01_Mock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_02_MisaShop/src/main/java/logic/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_02_MisaShop/src/main/java/logic/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_02_MisaShop/src/main/resources/CP215_Mock_02_MisaShop.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_03_QuestSystem/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_03_QuestSystem/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_03_QuestSystem/src/main/java/logic/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_03_QuestSystem/src/main/java/logic/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_03_QuestSystem/src/main/resources/OO_Q3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/src/main/java/logic/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/src/main/java/logic/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec01_Mock/CP215_Mock_OOP_04_SimpleDiscord/src/main/resources/CP215_Mock_OOP_04_SimpleDiscord.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/src/main/java/logic/card/BaseCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/src/main/java/logic/card/DrawTwoCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/src/main/java/logic/card/NumberCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/src/main/java/logic/utility/GameLogicUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_01_ONU/src/main/resources/CP215_Mock_Inheritance_01_ONU.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_02_StandUserBizarreFighter/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_02_StandUserBizarreFighter/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_02_StandUserBizarreFighter/src/main/resources/CP215_Mock_Inheritance_01_StandUserBizarreFightL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_02_StandUserBizarreFighter/src/test/java/StandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec02_Mock/CP215_Mock_Inheritance_02_StandUserBizarreFighter/src/test/java/StandUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/src/main/java/model/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lec_04_Exercise_Factory/src/main/java/model/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/main/java/TestMyJava/HelloMyFirstWorld_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/main/java/TestMyJava/MainWindowReDo_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/main/java/TestMyJava/MyFirstProgramWithJavaFX_00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/main/java/TestMyJava/WelcomeScreenByNine/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/main/java/TestMyJava/WelcomeScreenByNine/homePageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/main/resources/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/test/java/FXHelloWorld01WithHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture05_JavaFX/src/test/java/Welcome03WithHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Exercise/InfiniteOra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/ExerciseSolution/InfiniteOraFix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/InterruptSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/JoinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/Joining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/RunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/SleepState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/StateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/ThreadPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part1/YieldExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part2/TaskOnBackgroundThreadWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part2/TaskOnBackgroundThreadWithRunLater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part2/TaskOnJavaFXThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part2/TimerWithAnimationTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/Thread_Part2/TimerWithThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/UIExamples/HelloDragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/UIExamples/KeyPress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/UIExamples/KeyTrigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/UIExamples/KeyTrigger01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/UIExamples/KeyTrigger02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/UIExamples/MousePress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_Thread/src/main/java/UIExamples/MyKeyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_ThreadAndMoreGUI/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_ThreadAndMoreGUI/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_ThreadAndMoreGUI/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Lecture_06_ThreadAndMoreGUI/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/src/main/java/logic/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/src/main/java/logic/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_01_CPShop/src/main/resources/Midterm_2110215_2019-2_CoverPage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/src/main/java/logic/rocks/NormalRock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/src/main/java/logic/rocks/PoisonRock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_02_TerryVSZombies/src/main/resources/Midterm_2110215_2019-2_CoverPage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/main/java/logic/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/main/java/logic/Janitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/main/java/logic/OfficeWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/main/resources/Midterm_2110215_2019-2_CoverPage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/test/java/student/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/test/java/student/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/test/java/student/JanitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2019_03_MacroCosmos/src/test/java/student/OfficeWorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/src/main/java/logic/EnterProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/src/main/java/logic/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_01_CVChecker/src/main/resources/CP215_2020_Midterm_Part_01_02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_02_CreaturesOfProgMeth/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_02_CreaturesOfProgMeth/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_02_CreaturesOfProgMeth/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_02_CreaturesOfProgMeth/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_02_CreaturesOfProgMeth/src/main/java/logic/attack/SPAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_02_CreaturesOfProgMeth/src/main/java/logic/monster/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_02_CreaturesOfProgMeth/src/main/resources/CP215_Midterm_2020_Part_01_02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_03_SpaceChess/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_03_SpaceChess/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_03_SpaceChess/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_03_SpaceChess/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_03_SpaceChess/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2020_03_SpaceChess/src/main/java/logic/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/src/main/java/disease/Covid19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/src/main/java/disease/Delta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/src/main/java/disease/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_02_COVID19Pandemic/src/main/resources/CP215_Midterm_2021_Exam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/src/main/java/logic/card/BaseCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/src/main/java/logic/card/MageCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/src/main/java/logic/card/RobotCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Midterm_Example/CP215_Midterm_2021_03_CardDuelist/src/main/resources/CP215_Midterm_2021_Exam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/src/main/resources/badtext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/src/main/resources/grimora.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/src/main/java/logic/unit/BaseUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/src/main/java/logic/unit/FlyingUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/src/main/java/logic/unit/MeleeUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_02_ZergChess/src/main/java/logic/unit/RangeUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/base/Choppable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/base/Cookable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/base/Updatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/container/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/container/Pan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/counter/Bin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/counter/ChoppingBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/counter/Crate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/counter/DishWasher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/counter/Stove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/ingredient/Egg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/ingredient/Lettuce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush/src/main/java/entity/ingredient/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/src/main/java/monkey/Ape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/src/main/java/monkey/BaseMonkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/src/main/java/monkey/MommyMonkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/src/main/java/monkey/MuscleMonkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/src/main/java/monkey/UgabugagaMonkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_2024_02_LopburiMonkeyWar/src/main/resources/CP215_Lab_2024_02_LopburiMonkeyWar.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/src/main/java/container/Layer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/src/main/java/container/Neuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/src/main/java/container/NeuronDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock01_ImageRecognition/src/saved_weights.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/main/java/logic/stone/Dynamite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/main/java/logic/stone/HardStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/main/java/logic/stone/WalkingStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/main/resources/CP215_Mock_02_MiningSimulator.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/test/java/DynamiteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/test/java/GameManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/test/java/GearTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/test/java/HardStoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_02_MiningSimulator/src/test/java/WalkingStoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/src/main/java/game/piece/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/src/main/java/game/piece/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/src/main/java/game/piece/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/src/main/resources/CP215_Mock_03_ChessPrototype.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/src/main/resources/bishop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_03_ChessPrototype/src/main/resources/knight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/java/interfaces/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/java/interfaces/Duplicatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/java/interfaces/Modifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/java/interfaces/Parallelizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/java/logic/task/CalculationTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/java/logic/task/RenderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/java/logic/task/SortTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_04_TaskTimeEstimator/src/main/resources/CP215_Mock_04_TaskTimeEstimator.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_05_NokotanPathFinder/src/main/resources/CP215_Mock_05_NokotanPathFinder_ProblemSheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/logic/components/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/logic/components/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/logic/components/FieldCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/logic/components/MenuPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/logic/game/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/logic/game/KeyboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/res/cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/res/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/res/sand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/resources/CP215_Mock_06_TheCatAndDog.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Year 2 Semester 2/.idea/Year 2 Semester 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/page/CreditScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/CreditScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/page/GameScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/page/HowToPlayScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/HowToPlayScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/page/LevelSelectionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/LevelSelectionScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/page/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/MainMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/GameScreenPic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/GameScreenPic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/moonjelly.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/Demo 01 NumPy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_02_basic_pandas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_03_practical_pandas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/practice_01_numpy_pretty.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/practice_02_basic_pandas_pretty.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/practice_03_practical_pandas_pretty.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Machine Learning Coursera/ML_IBM 2.1 Simple Linear Regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Machine Learning Coursera/ML_IBM 2.2 Multiple Linear Regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 1 Semester 1 (COMP PROG)/2110101 COMP PROG/2568 T1 Past Problems/2568_T1_Q2_A1 Daily Submission Stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 1 Semester 1 (COMP PROG)/2110101 COMP PROG/2568 T1 Past Problems/2568_T1_Q2_A2 Simple Diophantine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 1 Semester 1 (COMP PROG)/2110101 COMP PROG/analyze_score_section10_TA.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 1 Semester 1 (COMP PROG)/2110101 COMP PROG/grader1_section10_score.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 1 Semester 1 (COMP PROG)/2110101 COMP PROG/grader2_section10_score.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 2 Semester 1/2209261 Basic Programming NLP/2025 Lecture + Lab + PAs/Lab 2025T1/261_Lab2025T1_10_PandasPartII/261_Lab2025T1_10_PandasPartII.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year 2 Semester 1/2209261 Basic Programming NLP/2025 Lecture + Lab + PAs/Lab 2025T1/261_Lab2025T1_10_PandasPartII/261_Lab2025T1_10_PandasPartII.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 2 Semester 1/2209261 Basic Programming NLP/2025 Lecture + Lab + PAs/Lecture 2025T1/261 Lecture 13 Pandas Visualization/261 Lecture 13 Pandas Visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year 2 Semester 1/2209261 Basic Programming NLP/2025 Lecture + Lab + PAs/Lecture 2025T1/261 Lecture 13 Pandas Visualization/261 Lecture 13 Pandas Visualization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/104_00_01 Hello World.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/104_01_01 Expression.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/output/104_00_01 Hello World.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/output/104_01_01 Expression.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_02 Body Surface Area.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_03 Quadratic Root.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_04 Songkran Day.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_05 Expression V2 .cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_06 Duration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_07 Eyeball.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_08 Citizen ID.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_09 Date Format.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_10 Decimal2Fraction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_02 Body Surface Area.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_03 Quadratic Root.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_04 Songkran Day.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_05 Expression V2 .exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_06 Duration.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_07 Eyeball.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_08 Citizen ID.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_09 Date Format.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_09 Decimal2Fraction.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_01 FacultyCode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_02 Grading .cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_03 Gymnastic Score.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_04 Intania Major Change.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_05 Mobile Phone Checker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_06 Positive &amp; Negative Number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_07 RegisteredMail.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_08 AbbrevedNumber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_09 Day Of Year.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_10 Biorhythm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_11 Flowchart Median 5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_12 Flowchart Next 15 Days.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_02 .exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_03 Gymnastic Score.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_04 Intania Major Change.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_05 Mobile Phone Checker.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_06 Positive &amp; Negative Number.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_07 RegisteredMail.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_09 Day Of Year" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_09 Day Of Year 11-16-45-677" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_09 Day Of Year.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_11 Flowchart Median 5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_12 Flowchart Next 15 Days.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_01 Average.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_02 Bisection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_03 Count Word.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_04 MCQ Question.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_05 Parentheses.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_06 Print Triangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_07 Check Password.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_08 Naive factorization.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_09 Remove Long &amp; Dup Char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_10 Run Length Encoding.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_11 Number Of Digits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_12 Snooker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_13 Zig-Zag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_14 Flowchart Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_15 Flowchart Hard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average 11-16-45-688" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection 11-16-45-690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_03 Count Word.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_04 MCQ Question.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_05 Parentheses.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_06 Print Triangle.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_07 Check Password.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_08 Naive factorization.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_09 Remove Long &amp; Dup Char.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_10 Run Length Encoding.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_11 Number Of Digits.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_14 Flowchart Loop.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_15 Flowchart Hard.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_01 Missing Digits Sol1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_01 Missing Digits Sol2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_02 Nickname.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_03 Peaks.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_04 2D Moving Average.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_05 Finite Simple Continued Fraction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_07 Landing Fee.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_10 Tiling Puzzle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_01 Missing Digits Sol2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_01 Missing Digits.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_02 Nickname.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_03 Peaks.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_04 2D Moving Average Sol1 General.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_04 2D Moving Average.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_08 Landing Fee.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle 11-16-45-698" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/104_05_01 Decode String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/104_05_02 Add Big Numbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/output/104_05_02 Add Big Numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/output/104_05_02 Add Big Numbers 11-16-45-702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/output/104_05_02 Add Big Numbers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode.dSYM/Contents/Resources/DWARF/104_02_01 FacultyCode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode.dSYM/Contents/Resources/Relocations/aarch64/104_02_01 FacultyCode.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_01 Average.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_02 Unsigned Value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_03 Operators.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_04 Characters &amp; String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_04 String Find.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average.dSYM/Contents/Resources/DWARF/104_Lecture_01_01 Average" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average.dSYM/Contents/Resources/Relocations/aarch64/104_Lecture_01_01 Average.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_03 Operators.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_04 Characters &amp; String.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_01 Boolean &amp; String Comp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_02 Block Structure.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_03 Ternary Operator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_04 Miscelleneous.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_01 Boolean.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_02 Block Structure.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_03 Ternary Operator.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_04 Miscelleneous.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex01 While Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex02 While Loop Example.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex03 String In Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex04 Find Word in Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex05 Prime Numbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex06 Reverse String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex07_ForLoop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex08 ForLoopChar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01 Basic Loop.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex01 While Loop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex01 While Loop 11-16-45-583" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex01 While Loop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex02 While Loop Example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex02 While Loop Example 11-16-45-583" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex02 While Loop Example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex04 Find Word in Loop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex04 Find Word in Loop 11-16-45-589" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex04 Find Word in Loop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex05 Prime Numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex05 Prime Numbers 11-16-45-592" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex05 Prime Numbers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex06 Reverse String" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex06 Reverse String 11-16-45-594" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex06 Reverse String.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex07_ForLoop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex07_ForLoop 11-16-45-596" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex07_ForLoop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex08 ForLoopChar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex08 ForLoopChar 11-16-45-597" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex08 ForLoopChar.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/104_Lecture_03_02_01 Basic Function.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/104_Lecture_03_02_02 ExampleDefineFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/104_Lecture_03_02_03 FunctionsCallFunctions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 Basic Function" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 Basic Function 11-16-45-603" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 Basic Function.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 While Loop Example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 While Loop Example 11-16-45-599" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 While Loop Example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_02 ExampleDefineFunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_02 ExampleDefineFunction 11-16-45-604" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_02 ExampleDefineFunction.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_03 FunctionsCallFunctions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_03 FunctionsCallFunctions 11-16-45-606" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_03 FunctionsCallFunctions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_01 Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_02 Change Value in Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_03 Array Defined.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_04 Array Test Functions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_05 2D Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_06 3D Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_07 3D Array First Defined.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_08 Array With Runtime Bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_09 Array Examples.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_01 Array.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array 11-16-45-612" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 Dimensional Array.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 2D Array Test Functions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 2D Array Test Functions 11-16-45-615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 2D Array Test Functions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 3D Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 3D Array 11-16-45-617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 3D Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_05 Array Defined" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_05 Array Defined 11-16-45-617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_05 Array Defined.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_06 3D Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_06 3D Array 11-16-45-621" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_06 3D Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_07 3D Array First Defined" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_07 3D Array First Defined 11-16-45-623" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_07 3D Array First Defined.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_08 Array With Runtime Bound" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_08 Array With Runtime Bound 11-16-45-626" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_08 Array With Runtime Bound.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_09 Array Examples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_09 Array Examples 11-16-45-627" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_09 Array Examples.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/104_Lecture_05_01 Basic String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/104_Lecture_05_02_01 Read File.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/104_Lecture_05_02_03 Write File.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_01 Read File" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_01 Read File 11-16-45-632" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_01 Read File.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_03 Write File" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_03 Write File 11-16-45-633" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_03 Write File.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_01 Basic Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_02 Basic Tuple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_03 Find Max Tuple in Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_04 Older Tuple Comparison.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_05 Pair Creation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_06 Find Max Pair.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_07 Upgrade.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_08 Quadratic Equation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_01 Basic Array Before Tuple Pair" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_01 Basic Array Before Tuple Pair 11-16-45-639" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_01 Basic Array Before Tuple Pair.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_02 Basic Tuple" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_02 Basic Tuple 11-16-45-641" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_02 Basic Tuple.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_03 Find Max Tuple in Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_03 Find Max Tuple in Array 11-16-45-642" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_03 Find Max Tuple in Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_04 Older Tuple Comparison" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_04 Older Tuple Comparison 11-16-45-644" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_04 Older Tuple Comparison.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_05 Pair Creation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_05 Pair Creation 11-16-45-647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_05 Pair Creation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_06 Find Max Pair" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_06 Find Max Pair 11-16-45-647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_06 Find Max Pair.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_07 Upgrade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_07 Upgrade 11-16-45-650" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_07 Upgrade.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_08 Quadratic Equation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_08 Quadratic Equation 11-16-45-652" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_08 Quadratic Equation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/104_Lecture_06_02_01 Basic Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/104_Lecture_06_02_02 Push Back Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/104_Lecture_06_02_03 Iterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_LEcture_06_02_03 Iterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_LEcture_06_02_03 Iterator 11-16-45-654" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_LEcture_06_02_03 Iterator.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_01 Basic Vector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_01 Basic Vector 11-16-45-656" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_01 Basic Vector.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_02 Push Back Vector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_02 Push Back Vector 11-16-45-659" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_02 Push Back Vector.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/Dancing Ceremony d68q0 Sol1 O(N).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/Dancing Ceremony d68q0 Sol2 O(N logN).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/d68_q0_dancing_ceremony_1Star.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N).dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N).dSYM/Contents/Resources/DWARF/Dancing Ceremony d68q0 Sol1 O(N)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N).dSYM/Contents/Resources/Relocations/aarch64/Dancing Ceremony d68q0 Sol1 O(N).yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/Intersection_ds02_1star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star.dSYM/Contents/Resources/DWARF/vector_intersection_d62q1c_1star" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star.dSYM/Contents/Resources/Relocations/aarch64/vector_intersection_d62q1c_1star.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 1 Vector Pair Tuple (Word Count)/Most Frequent Word ds01 (0.5 Star)/MostFrequentWord_ds01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 1 Vector Pair Tuple (Word Count)/Most Frequent Word ds01 (0.5 Star)/output/MostFrequentWord_ds01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 1 Vector Pair Tuple (Word Count)/Vector Punch d62_q1a (1 Star)/vector_punch_d62_q1a.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 3 Basic STD/CUCAS Rating/cucas_rating_d58_q0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 3 Basic STD/Pair Sum ds01/ds01_pair_sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 3 Basic STD/d57_q0_histogram/d57_q0_histogram_1star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/MinMax_Exe002.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002.dSYM/Contents/Resources/DWARF/MinMax_Exe002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002.dSYM/Contents/Resources/Relocations/aarch64/MinMax_Exe002.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Time After Ex00e1 (0.5 Star)/TimeAfter_Exe001.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Time After Ex00e1 (0.5 Star)/output/TimeAfter_Exe001_Sol1_General" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Time After Ex00e1 (0.5 Star)/output/timeAfter_Exe001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Remove Even d57q0 (0.5 Star)/RemoveEven_d57q0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Remove Even d57q0 (0.5 Star)/output/RemoveEven_d57q0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Reverse Vector I ds00_reverse1 (0.5 Star)/ReverseVector_ds00reverse1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Reverse Vector I ds00_reverse1 (0.5 Star)/output/ReverseVector_ds00reverse1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/VectorOperation_d62q1c.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c.dSYM/Contents/Resources/DWARF/VectorOperation_d62q1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c.dSYM/Contents/Resources/Relocations/aarch64/VectorOperation_d62q1c.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Check Mapping ex00e3 (1 Star)/check_mapping_ex00e3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.dSYM/Contents/Resources/DWARF/reverse_vector_ii_ds00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.dSYM/Contents/Resources/Relocations/aarch64/reverse_vector_ii_ds00.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/reverse_vector_ii_ds00.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CP215_FinalProject_6730084521_2025S2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CP215_FinalProject_6730084521_2025S2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CP215_FinalProject_6730084521_2025S2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CyE88VZZqZAyA9sy2RrQZsqICe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [:application.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nubfightformydream/Documents/Intania 108 Courses/2110215 Programming Methodology 2025T2/CP215_FinalProject_6730084521_2025S2/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3413793&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/font" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CP215_FinalProject_6730084521_2025S2 [run]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="CP215_FinalProject_6730084521_2025S2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CP215_FinalProject_6730084521_2025S2 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [run]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3af95ef6-b1c4-418c-907a-a1dd63c76b47" name="Changes" comment="" />
+      <created>1777349249674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777349249674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

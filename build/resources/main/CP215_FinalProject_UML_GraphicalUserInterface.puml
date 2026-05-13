@@ -1,0 +1,116 @@
+@startuml
+class gui.HowToPlayScreen {
+~ {static} double BASE_WIDTH
+~ {static} int BACK_X
++ <<Create>> HowToPlayScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+class gui.GameScreen {
+- Main main
+- GameLogic gameLogic
+- int currentLevel
+- boolean running
+- Thread timerThread
+- boolean resultAlertShown
+- Label timeLabel
+- Label progressLabel
+- Label levelLabel
+~ {static} double BASE_WIDTH
+~ {static} int BACK_X
+~ {static} int HEART_X
+~ {static} int STAR_X
+~ {static} int SPARK_X
+~ {static} int DEW_X
+~ {static} int TRASH_X
+~ {static} int MERGE_STATION_X
+~ {static} int DELIVER_STATION_X
+~ {static} int MERGE_SLOT_WIDTH
+~ {static} int POTION_ICON_SIZE
+~ {static} int SOUL_ICON_SIZE
+~ {static} int MERGE_RESULT_START_SLOT
+~ {static} int[] MERGE_SLOT_X_POSITIONS
+~ {static} int[] DELIVER_SLOT_X_POSITIONS
+~ {static} int[] STATION_SLOT_Y_POSITIONS
+- AnchorPane mergeBoard
+- AnchorPane soulBeltBoard
+- StackPane[] mergeStationSlots
+- StackPane[] soulBeltSlots
+- StackPane trashDropZone
+- BasePotion[] mergeStationPotions
+- int nextPotionSlot
++ <<Create>> GameScreen(Main,int)
+- void startTimerThread()
+- void updateTimeLabel()
++ void setButtonLayout(Button,int,int,int,int)
++ void levelLabelHandling(Label,int)
++ void timeLabelLayoutHandling(Label)
++ void progressLabelLayoutHandling(Label)
++ void backButtonConfirmationHandler(Button)
++ void updateProgressLabel()
++ void handleElementButton(BaseElement)
++ void updateMergeBoardUI()
++ void showPotionInMergeStation(BasePotion)
++ void updateSoulBeltUI()
+- AnchorPane createStationPane(int,int)
+- StackPane[] createStationSlots(AnchorPane,int[])
+- StackPane createStationSlot()
+- StackPane createTrashDropZone()
+- void clearMergeSelectionSlots()
+- int getNextPotionSlotIndex()
+- void clearStationSlots(StackPane[])
+- Node createPotionNode(BasePotion,int)
+- void setupSoulDropTargets()
+- void setupTrashDropTarget()
+- boolean attackSoulWithDraggedPotion(int,int)
+- boolean hasPotionAtSlot(int)
+- boolean removePotionFromMergeStation(int)
+- void showLevelCompleteAlert()
+- void showGameOverAlert()
+- int getPotionSlotIndex(Dragboard)
+- Node createSoulNode(BaseSoul)
+- ImageView createImageView(String,int)
+}
+
+
+class gui.CreditScreen {
+~ {static} double BASE_WIDTH
+~ {static} int BACK_X
++ <<Create>> CreditScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+class gui.MainMenuScreen {
+~ {static} double BASE_WIDTH
+~ {static} int PLAY_X
+~ {static} int HOW_X
+~ {static} int CREDIT_X
++ <<Create>> MainMenuScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+class gui.LevelSelectionScreen {
+~ {static} double BASE_WIDTH
+~ {static} int LV1_X
+~ {static} int LV2_X
+~ {static} int LV3_X
+~ {static} int LV4_X
+~ {static} int LV5_X
+~ {static} int BACK_X
++ {static} int currentLevel
++ <<Create>> LevelSelectionScreen(Main)
++ void setButtonLayout(Button,int,int,int,int)
+}
+
+
+
+
+javafx.scene.layout.AnchorPane <|-- gui.HowToPlayScreen
+javafx.scene.layout.AnchorPane <|-- gui.GameScreen
+javafx.scene.layout.AnchorPane <|-- gui.CreditScreen
+javafx.scene.layout.AnchorPane <|-- gui.MainMenuScreen
+javafx.scene.layout.AnchorPane <|-- gui.LevelSelectionScreen
+@enduml
