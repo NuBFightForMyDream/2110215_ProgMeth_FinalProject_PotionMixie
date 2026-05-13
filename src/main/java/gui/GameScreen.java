@@ -25,6 +25,8 @@ import gamelogic.GameLogic;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Font;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Optional;
 
 public class GameScreen extends AnchorPane {
@@ -355,12 +357,19 @@ public class GameScreen extends AnchorPane {
     }
 
     private Node createPotionNode(BasePotion potion, int potionSlotIndex) {
-        StackPane potionNode = new StackPane(createImageView(potion.getImagePath(), POTION_ICON_SIZE));
+        ImageView potionIcon = createImageView(potion.getImagePath(), POTION_ICON_SIZE);
+        StackPane potionNode = new StackPane(potionIcon);
+        potionNode.setAlignment(Pos.CENTER);
+        potionNode.setPickOnBounds(true);
+        potionNode.setPrefSize(MERGE_SLOT_WIDTH, MERGE_SLOT_HEIGHT);
         potionNode.setOnDragDetected(event -> {
             Dragboard dragboard = potionNode.startDragAndDrop(TransferMode.MOVE);
             ClipboardContent content = new ClipboardContent();
             content.putString(String.valueOf(potionSlotIndex));
             dragboard.setContent(content);
+            if (potionIcon.getImage() != null) {
+                dragboard.setDragView(potionIcon.snapshot(null, null));
+            }
             event.consume();
         });
         return potionNode;
@@ -519,25 +528,95 @@ public class GameScreen extends AnchorPane {
 
     private Node createSoulNode(BaseSoul soul) {
         StackPane soulNode = new StackPane(createImageView(soul.getImagePath(), SOUL_ICON_SIZE));
+        soulNode.setAlignment(Pos.CENTER);
+        soulNode.setPickOnBounds(true);
         Label hpLabel = new Label(String.valueOf(soul.getSoulHP()));
-        hpLabel.setFont(Font.font(18));
-        hpLabel.setStyle("-fx-background-color: rgba(255,255,255,0.8); -fx-background-radius: 12; -fx-padding: 2 8 2 8;");
-        StackPane.setAlignment(hpLabel, Pos.BOTTOM_RIGHT);
+        hpLabel.setFont(Font.font(22));
+        hpLabel.setStyle("-fx-background-color: rgba(255,255,255,0.95); -fx-background-radius: 14; -fx-padding: 2 10 2 10; -fx-text-fill: #2b2b2b;");
+        StackPane.setAlignment(hpLabel, Pos.TOP_CENTER);
         soulNode.getChildren().add(hpLabel);
         return soulNode;
     }
 
     private ImageView createImageView(String imagePath, int size) {
         ImageView imageView = new ImageView();
-        var imageStream = getClass().getClassLoader().getResourceAsStream(imagePath);
-        if (imageStream != null) {
-            imageView.setImage(new Image(imageStream));
-        }
+        imageView.setImage(loadImage(imagePath));
         imageView.setFitWidth(size);
         imageView.setFitHeight(size);
         imageView.setPreserveRatio(true);
         imageView.setSmooth(true);
         return imageView;
+    }
+
+    private Image loadImage(String imagePath) {
+        Image image = loadImageFromResource(imagePath);
+        if (isValidImage(image)) {
+            return image;
+        }
+
+        Image sourceImage = loadImageFromSourceResources(imagePath);
+        if (isValidImage(sourceImage)) {
+            return sourceImage;
+        }
+
+        String fallbackPath = getFallbackImagePath(imagePath);
+        if (fallbackPath != null) {
+            Image fallbackImage = loadImageFromResource(fallbackPath);
+            if (!isValidImage(fallbackImage)) {
+                fallbackImage = loadImageFromSourceResources(fallbackPath);
+            }
+            if (isValidImage(fallbackImage)) {
+                System.err.println("Use fallback image: " + imagePath + " -> " + fallbackPath);
+                return fallbackImage;
+            }
+        }
+
+        System.err.println("Missing or invalid image resource: " + imagePath);
+        return null;
+    }
+
+    private Image loadImageFromResource(String imagePath) {
+        if (imagePath == null || imagePath.isBlank()) {
+            return null;
+        }
+
+        var imageUrl = getClass().getClassLoader().getResource(imagePath);
+        if (imageUrl == null) {
+            return null;
+        }
+        return new Image(imageUrl.toExternalForm());
+    }
+
+    private Image loadImageFromSourceResources(String imagePath) {
+        if (imagePath == null || imagePath.isBlank()) {
+            return null;
+        }
+
+        Path imageFilePath = Path.of("src", "main", "resources", imagePath);
+        if (!Files.isRegularFile(imageFilePath)) {
+            return null;
+        }
+        return new Image(imageFilePath.toUri().toString());
+    }
+
+    private boolean isValidImage(Image image) {
+        return image != null && !image.isError() && image.getWidth() > 0 && image.getHeight() > 0;
+    }
+
+    private String getFallbackImagePath(String imagePath) {
+        if (imagePath == null) {
+            return null;
+        }
+
+        return switch (imagePath) {
+            case "DreamMistSoul.png" -> "DreamMist.png";
+            case "EnergySplashSoul.png" -> "EnergySplash.png";
+            case "NovaSparkSoul.png" -> "NovaSpark.png";
+            case "PassionPopSoul.png" -> "PassionPop.png";
+            case "SoothingLoveSoul.png" -> "SoothingLove.png";
+            case "StarLoveCharmSoul.png" -> "StarLoveCharm.png";
+            default -> null;
+        };
     }
 
 }
