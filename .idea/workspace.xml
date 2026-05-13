@@ -434,75 +434,9 @@
       <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/res/sand.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/resources/CP215_Mock_06_TheCatAndDog.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Year 2 Semester 2/.idea/Year 2 Semester 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/application/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gui/GameScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/CP215_FinalProject_UML_Application.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/CP215_FinalProject_UML_Application.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/CP215_FinalProject_UML_GameElement.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/CP215_FinalProject_UML_GameLogic.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/CP215_FinalProject_UML_GameLogic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/CP215_FinalProject_UML_GraphicalUserInterface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/DreamMistSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/DreamMistSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/EnergySplashSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/EnergySplashSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/NovaSparkSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/NovaSparkSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/PassionPopSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/PassionPopSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/SoothingLove.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/SoothingLove.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/SoothingLoveSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/SoothingLoveSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/StarLoveCharm.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/StarLoveCharm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/StarLoveCharmSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/StarLoveCharmSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GameScreen.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GameScreen.class.uniqueId1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/element-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal/COPYRIGHT" beforeDir="false" afterPath="$PROJECT_DIR$/legal/COPYRIGHT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/legal/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Oblique.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Oblique.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Oblique.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans-Oblique.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSans.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSansMono.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif-Italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/fonts/DejaVuLGCSerif.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/glass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-files/x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource-files/x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/GameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CP215_FinalProject_UML_GameElement.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CP215_FinalProject_UML_GameElement.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CP215_FinalProject_UML_GraphicalUserInterface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/DreamMistSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DreamMistSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EnergySplashSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EnergySplashSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/NovaSparkSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/NovaSparkSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PassionPopSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PassionPopSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SoothingLove.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SoothingLove.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SoothingLoveSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SoothingLoveSoul.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StarLoveCharm.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StarLoveCharm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StarLoveCharmSoul.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StarLoveCharmSoul.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/Demo 01 NumPy.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_02_basic_pandas.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_03_practical_pandas.ipynb" beforeDir="false" />
@@ -923,6 +857,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.CP215_FinalProject_6730084521_2025S2 [:application.Main.main()].executor": "Run",
+    "Gradle.CP215_FinalProject_6730084521_2025S2 [build].executor": "Run",
     "Gradle.CP215_FinalProject_6730084521_2025S2 [jar].executor": "Run",
     "Gradle.CP215_FinalProject_6730084521_2025S2 [javadoc].executor": "Run",
     "Gradle.CP215_FinalProject_6730084521_2025S2 [run].executor": "Run",
@@ -963,7 +898,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.CP215_FinalProject_6730084521_2025S2 [jar]">
-    <configuration name="CP215_FinalProject_6730084521_2025S2 [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CP215_FinalProject_6730084521_2025S2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -974,7 +909,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="jar" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -988,7 +923,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="CP215_FinalProject_6730084521_2025S2 [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CP215_FinalProject_6730084521_2025S2 [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -999,7 +934,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="javadoc" />
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1092,9 +1027,9 @@
       <list>
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [jar]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [run]" />
+        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [build]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [test]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [testClasses]" />
-        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [javadoc]" />
       </list>
     </recent_temporary>
   </component>
