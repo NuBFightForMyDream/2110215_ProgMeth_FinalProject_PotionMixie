@@ -1,0 +1,56 @@
+@startuml
+class gamelogic.GameLogic {
+- int level
+- int beltSize
+- SoulGenerator orderGenerator
+- Queue<BaseSoul> soulBelt
+- int defeatedSoulCount
+- int totalSoulRequiredForEachLevel
+- BaseSoul currentSoul
+- TimeLeftManager timer
+- boolean gameOver
+- {static} int MAX_MERGE_SLOTS
+- List<BaseElement> mergeSlots
+- List<BasePotion> potionPool
++ <<Create>> GameLogic(int)
+- int getTotalSoulRequiredByLevel(int)
+- void fillSoulBeltAlgorithm()
++ void attackFirstSoul(BasePotion)
++ boolean attackSoulAt(int,BasePotion)
++ BaseSoul getFirstSoul()
++ List<BaseSoul> getSoulBeltAsList()
++ int getDefeatedSoulCount()
++ int getTotalSoulRequired()
++ void updateTimer()
++ boolean isLevelComplete()
++ boolean isGameOver()
++ int getTimeLeft()
++ boolean isTimeUp()
++ int getLevel()
++ BasePotion addElementToMerge(BaseElement)
+- BasePotion tryAutoMerge()
++ void clearMergeSlots()
++ List<BaseElement> getMergeSlots()
+}
+
+
+class gamelogic.SoulGenerator {
+- Random randomizer
++ BaseSoul generateSoul(int)
+- List<Supplier<BaseSoul>> getSoulPoolByLevel(int)
+}
+
+
+class gamelogic.TimeLeftManager {
+- {static} int DEFAULT_TIME_LEFT
+- {static} int[] TOTAL_TIME_BY_LEVEL
+- int totalTimeLeft
++ <<Create>> TimeLeftManager(int)
++ void decreaseTime()
++ int getTotalTimeFromLevel(int)
++ boolean isTimeUp()
++ int getTimeLeft()
+}
+
+
+@enduml

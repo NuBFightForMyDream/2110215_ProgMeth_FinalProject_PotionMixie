@@ -1,0 +1,19 @@
+@startuml
+class application.Main {
+- Stage stage
++ {static} int GAME_WIDTH
++ {static} int GAME_HEIGHT
++ void start(Stage)
++ void showMainMenuScreen()
++ void showGameScreen()
++ void showHowToPlayScreen()
++ void showCreditScreen()
++ void showLevelSelectionScreen()
++ {static} void main(String[])
+}
+
+
+
+
+javafx.application.Application <|-- application.Main
+@enduml
