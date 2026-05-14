@@ -7,14 +7,28 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Supplier;
 
+/**
+ * Creates random soul instances based on the current level unlocks.
+ */
 public class SoulGenerator {
     // Attributes (for each level)
     private final Random randomizer = new Random(); // define randomizer
 
     // Constructors
         // No need , call via methods
+    /**
+     * Creates a soul generator with its own randomizer.
+     */
+    public SoulGenerator() {
+    }
 
     // Methods
+    /**
+     * Generates one random soul allowed for the given level.
+     *
+     * @param level current game level
+     * @return newly created soul
+     */
     public BaseSoul generateSoul(int level) {
         // This method will be call based on player level
         // soul pool = unique types of souls stored
@@ -23,6 +37,12 @@ public class SoulGenerator {
         return soulPool.get(index).get(); // get index => get soul type from that index
     }
 
+    /**
+     * Builds the soul factory pool unlocked by the given level.
+     *
+     * @param level current game level
+     * @return factories for allowed soul types
+     */
     private List<Supplier<BaseSoul>> getSoulPoolByLevel(int level) {
         // Note : using Supplier for creating new object every time called
         List<Supplier<BaseSoul>> soulPool = new ArrayList<>();

@@ -21,8 +21,14 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Tests soul constructors, HP rules, and potion attack behavior.
+ */
 class SoulTest {
 
+    /**
+     * Tests that each soul constructor sets weakness, image, HP range, and interface type.
+     */
     @ParameterizedTest
     @MethodSource("souls")
     void soulHasExpectedMetadataAndHpRange(
@@ -45,6 +51,9 @@ class SoulTest {
         }
     }
 
+    /**
+     * Tests that a matching potion damages a soul.
+     */
     @ParameterizedTest
     @MethodSource("souls")
     void matchingPotionDamagesSoul(
@@ -65,6 +74,9 @@ class SoulTest {
         assertEquals(100 - potion.getPotionPower(), soul.getSoulHP());
     }
 
+    /**
+     * Tests that a non-matching potion does not damage a soul.
+     */
     @ParameterizedTest
     @MethodSource("souls")
     void nonMatchingPotionDoesNotDamageSoul(
@@ -85,6 +97,9 @@ class SoulTest {
         assertEquals(100, soul.getSoulHP());
     }
 
+    /**
+     * Tests that the soul HP setter clamps negative values to zero.
+     */
     @Test
     void soulHpCannotBeNegative() {
         BaseSoul soul = new DreamMistSoul();
@@ -94,6 +109,9 @@ class SoulTest {
         assertEquals(0, soul.getSoulHP());
     }
 
+    /**
+     * Tests that potion damage cannot reduce soul HP below zero.
+     */
     @Test
     void soulHpStopsAtZeroWhenDamageIsHigherThanCurrentHp() {
         BaseSoul soul = new DreamMistSoul();
@@ -104,6 +122,11 @@ class SoulTest {
         assertEquals(0, soul.getSoulHP());
     }
 
+    /**
+     * Provides soul constructors and expected metadata.
+     *
+     * @return soul constructor test data
+     */
     private static Stream<Arguments> souls() {
         return Stream.of(
                 Arguments.of((Supplier<BaseSoul>) DreamMistSoul::new, PotionType.DREAM_MIST, "DreamMistSoul.png", 20, 80, 20),
@@ -115,6 +138,12 @@ class SoulTest {
         );
     }
 
+    /**
+     * Creates a potion that matches the given weakness type.
+     *
+     * @param potionType weakness type
+     * @return matching potion instance
+     */
     private static BasePotion matchingPotion(PotionType potionType) {
         return switch (potionType) {
             case DREAM_MIST -> new DreamMistPotion();
@@ -126,6 +155,12 @@ class SoulTest {
         };
     }
 
+    /**
+     * Creates a potion that does not match the given weakness type.
+     *
+     * @param potionType weakness type
+     * @return non-matching potion instance
+     */
     private static BasePotion nonMatchingPotion(PotionType potionType) {
         if (potionType == PotionType.DREAM_MIST) {
             return new EnergySplashPotion();

@@ -4,9 +4,15 @@ import gameelement.element.*;
 
 import java.util.List;
 
+/**
+ * Potion made from Heart Berry and Spark Ember.
+ */
 public class PassionPopPotion extends BasePotion implements MergeAble {
 
     // Constructors
+    /**
+     * Creates a Passion Pop potion with its recipe, type, and power.
+     */
     public PassionPopPotion() {
         super("Passion Pop Potion", "PassionPop.png");
         setPotionRecipe( List.of(HeartBerryElement.class , SparkEmberElement.class) );
@@ -15,6 +21,12 @@ public class PassionPopPotion extends BasePotion implements MergeAble {
     }
 
     // Methods
+    /**
+     * Checks whether the selected elements can merge into Passion Pop.
+     *
+     * @param elements selected elements from the merge station
+     * @return true when Heart Berry and Spark Ember are selected
+     */
     @Override
     public boolean potionMatchesRecipe(List<BaseElement> elements) {
         return elements.size() == 2 &&

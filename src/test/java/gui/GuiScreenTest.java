@@ -15,8 +15,14 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Tests JavaFX screen construction and basic layout behavior.
+ */
 class GuiScreenTest {
 
+    /**
+     * Tests that the main menu constructor builds its background and buttons.
+     */
     @Test
     @Timeout(10)
     void mainMenuScreenBuildsBackgroundAndNavigationButtons() {
@@ -30,6 +36,9 @@ class GuiScreenTest {
         });
     }
 
+    /**
+     * Tests that the level selection constructor builds all level and back buttons.
+     */
     @Test
     @Timeout(10)
     void levelSelectionScreenBuildsAllLevelButtonsAndBackButton() {
@@ -43,6 +52,9 @@ class GuiScreenTest {
         });
     }
 
+    /**
+     * Tests that the help and credit screen constructors build a background and back button.
+     */
     @Test
     @Timeout(10)
     void howToPlayAndCreditScreensBuildBackgroundAndBackButton() {
@@ -55,6 +67,9 @@ class GuiScreenTest {
         });
     }
 
+    /**
+     * Tests that the game screen constructor builds gameplay nodes and initial labels.
+     */
     @Test
     @Timeout(10)
     void gameScreenBuildsGameplayNodesAndInitialLabels() {
@@ -81,6 +96,9 @@ class GuiScreenTest {
         });
     }
 
+    /**
+     * Tests that button layout scales from the base 1920x1080 artwork coordinates.
+     */
     @Test
     @Timeout(10)
     void buttonLayoutScalesFromBaseResolution() {
@@ -98,6 +116,11 @@ class GuiScreenTest {
         });
     }
 
+    /**
+     * Checks a simple image screen with one hidden back button.
+     *
+     * @param screen screen to inspect
+     */
     private static void assertSimpleBackScreen(AnchorPane screen) {
         assertEquals(2, screen.getChildren().size());
         assertEquals(1, countChildrenOfType(screen, ImageView.class));
@@ -105,6 +128,11 @@ class GuiScreenTest {
         assertAllButtonsHidden(screen);
     }
 
+    /**
+     * Checks that all screen buttons are transparent.
+     *
+     * @param screen screen to inspect
+     */
     private static void assertAllButtonsHidden(AnchorPane screen) {
         screen.getChildren().stream()
                 .filter(Button.class::isInstance)
@@ -112,12 +140,24 @@ class GuiScreenTest {
                 .forEach(button -> assertEquals(0, button.getOpacity(), 0.01));
     }
 
+    /**
+     * Counts children of a specific JavaFX node type.
+     *
+     * @param screen screen to inspect
+     * @param nodeType child node type to count
+     * @return number of matching child nodes
+     */
     private static long countChildrenOfType(AnchorPane screen, Class<? extends Node> nodeType) {
         return screen.getChildren().stream()
                 .filter(nodeType::isInstance)
                 .count();
     }
 
+    /**
+     * Stops the GameScreen timer by reflection so the test can finish cleanly.
+     *
+     * @param screen game screen under test
+     */
     private static void stopGameTimer(GameScreen screen) {
         try {
             Method stopTimer = GameScreen.class.getDeclaredMethod("stopTimer");

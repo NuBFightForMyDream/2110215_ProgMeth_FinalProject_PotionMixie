@@ -4,9 +4,15 @@ import gameelement.element.*;
 
 import java.util.List;
 
+/**
+ * Potion made from Heart Berry and Dew Drop.
+ */
 public class SoothingLovePotion extends BasePotion implements MergeAble {
 
     // Constructors
+    /**
+     * Creates a Soothing Love potion with its recipe, type, and power.
+     */
     public SoothingLovePotion() {
         super("Soothing Love Potion", "SoothingLove.png");
         setPotionRecipe( List.of(HeartBerryElement.class , DewDropElement.class) );
@@ -15,6 +21,12 @@ public class SoothingLovePotion extends BasePotion implements MergeAble {
     }
 
     // Methods
+    /**
+     * Checks whether the selected elements can merge into Soothing Love.
+     *
+     * @param elements selected elements from the merge station
+     * @return true when Heart Berry and Dew Drop are selected
+     */
     @Override
     public boolean potionMatchesRecipe(List<BaseElement> elements) {
         return elements.size() == 2 &&

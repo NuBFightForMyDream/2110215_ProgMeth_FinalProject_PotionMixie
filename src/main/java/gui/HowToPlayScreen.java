@@ -9,6 +9,9 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 
+/**
+ * How-to-play screen with a background image and back navigation.
+ */
 public class HowToPlayScreen extends AnchorPane {
 
     // TODO 0 : Fields
@@ -17,6 +20,11 @@ public class HowToPlayScreen extends AnchorPane {
     static final int BACK_X = 64 , BACK_Y = 64 , BACK_WIDTH = 203 , BACK_HEIGHT = 98 ;
     // --------------------------------------------------------------------------------------------------
 
+    /**
+     * Builds the how-to-play screen and its back button.
+     *
+     * @param main main application used for screen changes
+     */
     public HowToPlayScreen(Main main) {
         // create ImageView to display credit scene
         Image howToPlayImage = new Image(getClass().getClassLoader().getResourceAsStream("HowToPlayPic.png")) ;
@@ -37,6 +45,15 @@ public class HowToPlayScreen extends AnchorPane {
     }
 
     // TODO 3 : Method of setting button properties
+    /**
+     * Scales a transparent button from base artwork coordinates.
+     *
+     * @param button button to position
+     * @param x_pos x coordinate from the base design
+     * @param y_pos y coordinate from the base design
+     * @param width button width from the base design
+     * @param height button height from the base design
+     */
     public void setButtonLayout(Button button , int x_pos , int y_pos , int width , int height) {
         // using bind properties to set ratio for fitting screen (no need to set initial value)
         button.translateXProperty().bind(widthProperty().multiply(x_pos / BASE_WIDTH));

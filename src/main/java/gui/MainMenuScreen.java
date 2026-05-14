@@ -6,6 +6,9 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
+/**
+ * Main menu screen with navigation buttons to play, help, and credits.
+ */
 public class MainMenuScreen extends AnchorPane {
     // TODO 0 : Fields
     // ------------------- Zone of defining constant for each button ------------------------------------
@@ -18,6 +21,11 @@ public class MainMenuScreen extends AnchorPane {
     // This Screen will be welcome page for user (which will be run in Main class)
 
     // TODO 1 : Constructor for this class (Handling Buttons for each page)
+    /**
+     * Builds the main menu screen and wires navigation buttons.
+     *
+     * @param main main application used for screen changes
+     */
     public MainMenuScreen(Main main) {
         // 1.1 : using ImageView to add image to VBox
         Image mainMenuImage = new Image(getClass().getClassLoader().getResourceAsStream("HomeScreenPic.png"));
@@ -48,6 +56,15 @@ public class MainMenuScreen extends AnchorPane {
     }
 
     // TODO 3 : Method of setting button properties
+    /**
+     * Scales a transparent button from base artwork coordinates.
+     *
+     * @param button button to position
+     * @param x_pos x coordinate from the base design
+     * @param y_pos y coordinate from the base design
+     * @param width button width from the base design
+     * @param height button height from the base design
+     */
     public void setButtonLayout(Button button , int x_pos , int y_pos , int width , int height) {
         // using bind properties to set ratio for fitting screen (no need to set initial value)
         button.translateXProperty().bind(widthProperty().multiply(x_pos / BASE_WIDTH));

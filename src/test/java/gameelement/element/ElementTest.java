@@ -9,8 +9,14 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Tests element constructors and simple getters.
+ */
 class ElementTest {
 
+    /**
+     * Tests that each element constructor sets its name and image path.
+     */
     @ParameterizedTest
     @MethodSource("elements")
     void elementHasExpectedNameAndImage(Supplier<BaseElement> factory, String expectedName, String expectedImagePath) {
@@ -20,6 +26,11 @@ class ElementTest {
         assertEquals(expectedImagePath, element.getImagePath());
     }
 
+    /**
+     * Provides all element constructors and expected metadata.
+     *
+     * @return element constructor test data
+     */
     private static Stream<Arguments> elements() {
         return Stream.of(
                 Arguments.of((Supplier<BaseElement>) HeartBerryElement::new, "Heart Berry", "HeartBerry.png"),

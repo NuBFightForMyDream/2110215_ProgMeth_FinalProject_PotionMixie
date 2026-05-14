@@ -7,9 +7,15 @@ import gameelement.element.StarDustElement;
 
 import java.util.List;
 
+/**
+ * Potion made from Spark Ember and Dew Drop.
+ */
 public class EnergySplashPotion extends BasePotion implements MergeAble {
 
     // Constructors
+    /**
+     * Creates an Energy Splash potion with its recipe, type, and power.
+     */
     public EnergySplashPotion() {
         super("Energy Splash Potion", "EnergySplash.png");
         setPotionRecipe( List.of(SparkEmberElement.class , DewDropElement.class) );
@@ -18,6 +24,12 @@ public class EnergySplashPotion extends BasePotion implements MergeAble {
     }
 
     // Methods
+    /**
+     * Checks whether the selected elements can merge into Energy Splash.
+     *
+     * @param elements selected elements from the merge station
+     * @return true when Spark Ember and Dew Drop are selected
+     */
     @Override
     public boolean potionMatchesRecipe(List<BaseElement> elements) {
         return elements.size() == 2 &&

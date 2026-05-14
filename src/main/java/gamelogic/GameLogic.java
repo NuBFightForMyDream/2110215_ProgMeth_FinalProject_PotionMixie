@@ -15,6 +15,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * Main gameplay controller for soul generation, timer, attacks, and merging.
+ */
 public class GameLogic {
 
     // TODO : Attributes
@@ -45,6 +48,11 @@ public class GameLogic {
 
 
     // TODO : Constructors
+    /**
+     * Creates gameplay state for the selected level.
+     *
+     * @param level level number used for time, soul pool, and win condition
+     */
     public GameLogic(int level) {
         this.level = level;
         this.beltSize = 8;
@@ -79,6 +87,12 @@ public class GameLogic {
     // -------------- Methods ---------------
 
     // -------- TODO 1 : Methods for SoulGenerator ---------
+    /**
+     * Gets the number of defeated souls required for a level.
+     *
+     * @param level level number
+     * @return required defeated soul count
+     */
     private int getTotalSoulRequiredByLevel(int level) {
         return switch (level) {
             case 1 -> 5;
@@ -90,6 +104,9 @@ public class GameLogic {
         };
     }
 
+    /**
+     * Fills the soul belt until it reaches capacity or the level is complete.
+     */
     private void fillSoulBeltAlgorithm() {
         // This method will check if belt is not full & level isn't complete
         while (soulBelt.size() < beltSize && !isLevelComplete()) {
@@ -97,10 +114,22 @@ public class GameLogic {
         }
     }
 
+    /**
+     * Attacks the first soul in the belt.
+     *
+     * @param potion potion used for the attack
+     */
     public void attackFirstSoul(BasePotion potion) {
         attackSoulAt(0, potion);
     }
 
+    /**
+     * Attacks a soul at the given belt index and refills the belt if defeated.
+     *
+     * @param soulIndex index of the target soul
+     * @param potion potion used for the attack
+     * @return true when a valid target was attacked
+     */
     public boolean attackSoulAt(int soulIndex, BasePotion potion) {
         // Case 1 : Level Complete , Won't attack soul
         if (isLevelComplete()) {
@@ -132,18 +161,38 @@ public class GameLogic {
     }
 
     // Getters for SoulGenerator
+    /**
+     * Gets the first soul waiting in the belt.
+     *
+     * @return first soul, or null if the belt is empty
+     */
     public BaseSoul getFirstSoul() {
         return soulBelt.peek();
     }
 
+    /**
+     * Gets a copy of the current soul belt.
+     *
+     * @return list copy of souls in belt order
+     */
     public List<BaseSoul> getSoulBeltAsList() {
         return new ArrayList<>(soulBelt);
     }
 
+    /**
+     * Gets the number of souls defeated in this level.
+     *
+     * @return defeated soul count
+     */
     public int getDefeatedSoulCount() {
         return defeatedSoulCount;
     }
 
+    /**
+     * Gets the total souls required to complete this level.
+     *
+     * @return required soul count
+     */
     public int getTotalSoulRequired() {
         return totalSoulRequiredForEachLevel ;
     }
@@ -151,6 +200,9 @@ public class GameLogic {
 
 
     // -------- TODO 2 : Methods for TimeLeftManager ---------
+    /**
+     * Decreases the timer and ends the game when time reaches zero.
+     */
     public void updateTimer() {
         // Case 1 : GameOver , do nothing
         if (gameOver) return;
@@ -162,27 +214,58 @@ public class GameLogic {
         }
     }
 
+    /**
+     * Checks whether the player has defeated enough souls for the level.
+     *
+     * @return true when the level objective is complete
+     */
     public boolean isLevelComplete() {
         // This method will check if that level is complete or not
         return defeatedSoulCount >= totalSoulRequiredForEachLevel ;
     }
 
+    /**
+     * Checks whether the game has ended.
+     *
+     * @return true when time is up or the level is complete
+     */
     public boolean isGameOver() { return gameOver ; }
 
+    /**
+     * Gets the current remaining time.
+     *
+     * @return remaining time in seconds
+     */
     public int getTimeLeft() {
         return timer.getTimeLeft();
     }
 
+    /**
+     * Checks whether the timer has reached zero.
+     *
+     * @return true when no time remains
+     */
     public boolean isTimeUp() {
         return timer.isTimeUp();
     }
 
+    /**
+     * Gets the current level number.
+     *
+     * @return level number
+     */
     public int getLevel() {
         return level;
     }
     // -------- TODO 2 END : Methods for TimeLeftManager ---------
 
     // -------- TODO 3 : Methods for handling Merging System --------
+    /**
+     * Adds an element to the merge slots and returns a potion when a recipe matches.
+     *
+     * @param element selected element
+     * @return created potion, or null when no potion is created
+     */
     public BasePotion addElementToMerge(BaseElement element) {
         if (mergeSlots.size() >= MAX_MERGE_SLOTS) {
             clearMergeSlots();
@@ -202,6 +285,11 @@ public class GameLogic {
         return null;
     }
 
+    /**
+     * Attempts to match the current merge slots with any potion recipe.
+     *
+     * @return matched potion, or null when no recipe matches
+     */
     private BasePotion tryAutoMerge() {
         for (BasePotion potion : potionPool) {
             if (potion.potionMatchesRecipe(mergeSlots)) {
@@ -211,10 +299,18 @@ public class GameLogic {
         return null;
     }
 
+    /**
+     * Clears all currently selected merge elements.
+     */
     public void clearMergeSlots() {
         mergeSlots.clear();
     }
 
+    /**
+     * Gets the current merge slot contents.
+     *
+     * @return selected merge elements
+     */
     public List<BaseElement> getMergeSlots() {
         return mergeSlots;
     }

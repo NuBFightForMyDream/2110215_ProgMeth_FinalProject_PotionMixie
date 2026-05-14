@@ -17,8 +17,14 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Tests random soul generation rules by level.
+ */
 class SoulGeneratorTest {
 
+    /**
+     * Tests that generateSoul only returns soul types unlocked for the level.
+     */
     @ParameterizedTest
     @MethodSource("allowedSoulTypesByLevel")
     void generateSoulOnlyUsesTypesUnlockedForLevel(int level, Set<Class<? extends BaseSoul>> allowedTypes) {
@@ -35,6 +41,11 @@ class SoulGeneratorTest {
         }
     }
 
+    /**
+     * Provides each level with the soul types allowed at that level.
+     *
+     * @return level unlock test data
+     */
     private static Stream<Arguments> allowedSoulTypesByLevel() {
         Set<Class<? extends BaseSoul>> levelOne = Set.of(
                 DreamMistSoul.class,

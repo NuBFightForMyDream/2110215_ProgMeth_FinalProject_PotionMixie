@@ -8,12 +8,21 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ * Utility methods for running JavaFX-related tests on the FX application thread.
+ */
 public final class FxTestSupport {
     private static final AtomicBoolean STARTED = new AtomicBoolean(false);
 
+    /**
+     * Prevents creating utility class instances.
+     */
     private FxTestSupport() {
     }
 
+    /**
+     * Starts the JavaFX runtime once for all tests.
+     */
     public static void startJavaFx() {
         if (STARTED.get()) {
             return;
@@ -35,6 +44,13 @@ public final class FxTestSupport {
         }
     }
 
+    /**
+     * Runs a callable on the JavaFX application thread and returns its result.
+     *
+     * @param action action to run on the FX thread
+     * @param <T> result type
+     * @return action result
+     */
     public static <T> T runOnFxThread(Callable<T> action) {
         startJavaFx();
 
@@ -72,6 +88,11 @@ public final class FxTestSupport {
         return result.get();
     }
 
+    /**
+     * Runs a runnable on the JavaFX application thread.
+     *
+     * @param action action to run on the FX thread
+     */
     public static void runOnFxThread(Runnable action) {
         runOnFxThread(() -> {
             action.run();
@@ -79,6 +100,11 @@ public final class FxTestSupport {
         });
     }
 
+    /**
+     * Waits for a JavaFX latch and fails the test if it times out.
+     *
+     * @param latch latch to wait for
+     */
     private static void await(CountDownLatch latch) {
         try {
             if (!latch.await(10, TimeUnit.SECONDS)) {

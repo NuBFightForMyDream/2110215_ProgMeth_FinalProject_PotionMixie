@@ -5,8 +5,14 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+/**
+ * Tests that image and UML resources referenced by the game are available.
+ */
 class ResourceAvailabilityTest {
 
+    /**
+     * Tests that each listed resource can be loaded from the classpath.
+     */
     @ParameterizedTest
     @ValueSource(strings = {
             "HomeScreenPic.png",

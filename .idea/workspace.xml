@@ -439,8 +439,151 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/BaseElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/BaseElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/DewDropElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/DewDropElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/HeartBerryElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/HeartBerryElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/SparkEmberElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/SparkEmberElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/StarDustElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/element/StarDustElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/BasePotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/BasePotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/DreamMistPotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/DreamMistPotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/EnergySplashPotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/EnergySplashPotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/MergeAble.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/MergeAble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/NovaSparkPotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/NovaSparkPotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/PassionPopPotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/PassionPopPotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/PotionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/PotionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/SoothingLovePotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/SoothingLovePotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/StarloveCharmPotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/potion/StarloveCharmPotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/BaseSoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/BaseSoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/BeAttackedAble.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/BeAttackedAble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/DreamMistSoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/DreamMistSoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/EnergySplashSoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/EnergySplashSoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/NovaSparkSoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/NovaSparkSoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/PassionPopSoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/PassionPopSoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/SoothingLoveSoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/SoothingLoveSoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/StarloveCharmSoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gameelement/soul/StarloveCharmSoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gamelogic/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gamelogic/GameLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gamelogic/SoulGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gamelogic/SoulGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gamelogic/TimeLeftManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gamelogic/TimeLeftManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gui/CreditScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gui/CreditScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gui/HowToPlayScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gui/HowToPlayScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gui/LevelSelectionScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gui/LevelSelectionScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/gui/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/gui/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/application/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/application/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/application/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/application/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/application/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/application/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/BaseElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/BaseElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/DewDropElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/DewDropElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/HeartBerryElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/HeartBerryElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/SparkEmberElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/SparkEmberElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/StarDustElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/StarDustElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/element/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/BasePotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/BasePotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/DreamMistPotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/DreamMistPotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/EnergySplashPotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/EnergySplashPotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/MergeAble.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/MergeAble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/NovaSparkPotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/NovaSparkPotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/PassionPopPotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/PassionPopPotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/PotionType.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/PotionType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/SoothingLovePotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/SoothingLovePotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/StarloveCharmPotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/StarloveCharmPotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/potion/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/BaseSoul.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/BaseSoul.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/BeAttackedAble.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/BeAttackedAble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/DreamMistSoul.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/DreamMistSoul.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/EnergySplashSoul.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/EnergySplashSoul.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/NovaSparkSoul.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/NovaSparkSoul.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/PassionPopSoul.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/PassionPopSoul.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/SoothingLoveSoul.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/SoothingLoveSoul.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/StarloveCharmSoul.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/StarloveCharmSoul.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gameelement/soul/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/GameLogic.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/GameLogic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/SoulGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/SoulGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/TimeLeftManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/TimeLeftManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gamelogic/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gui/CreditScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gui/CreditScreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gui/GameScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gui/GameScreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gui/HowToPlayScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gui/HowToPlayScreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gui/LevelSelectionScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gui/LevelSelectionScreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gui/MainMenuScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gui/MainMenuScreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gui/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gui/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/gui/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/gui/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/legal/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/legal/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/legal/jqueryUI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/resource-files/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/resource-files/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/resource-files/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/resource-files/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/resource-files/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/resource-files/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/resource-files/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/resource-files/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-files/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/script-files/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/script-files/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-files/search-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/script-files/search-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-files/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/script-files/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/tag-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/javadoc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/CP215_FinalProject_6730084521_2025S2-1-with-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GameScreen.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/element/BaseElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/BaseElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/element/DewDropElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/DewDropElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/element/HeartBerryElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/HeartBerryElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/element/SparkEmberElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/SparkEmberElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/element/StarDustElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/element/StarDustElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/BasePotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/BasePotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/DreamMistPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/DreamMistPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/EnergySplashPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/EnergySplashPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/MergeAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/MergeAble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/NovaSparkPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/NovaSparkPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/PassionPopPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/PassionPopPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/PotionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/PotionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/SoothingLovePotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/SoothingLovePotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/potion/StarloveCharmPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/potion/StarloveCharmPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/BaseSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/BaseSoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/BeAttackedAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/BeAttackedAble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/DreamMistSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/DreamMistSoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/EnergySplashSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/EnergySplashSoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/NovaSparkSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/NovaSparkSoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/PassionPopSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/PassionPopSoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/SoothingLoveSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/SoothingLoveSoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameelement/soul/StarloveCharmSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameelement/soul/StarloveCharmSoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gamelogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gamelogic/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gamelogic/SoulGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gamelogic/SoulGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gamelogic/TimeLeftManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gamelogic/TimeLeftManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/CreditScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/CreditScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/HowToPlayScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/HowToPlayScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/LevelSelectionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/LevelSelectionScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/MainMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/application/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gameelement/element/ElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gameelement/element/ElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gameelement/potion/PotionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gameelement/potion/PotionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gameelement/soul/SoulTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gameelement/soul/SoulTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gamelogic/GameLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gamelogic/GameLogicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gamelogic/SoulGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gamelogic/SoulGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gamelogic/TimeLeftManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gamelogic/TimeLeftManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gui/GuiScreenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/GuiScreenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resource/ResourceAvailabilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resource/ResourceAvailabilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testsupport/FxTestSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsupport/FxTestSupport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/Demo 01 NumPy.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_02_basic_pandas.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_03_practical_pandas.ipynb" beforeDir="false" />
@@ -822,6 +965,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CP215_FinalProject_6730084521_2025S2" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CP215_FinalProject_6730084521_2025S2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -901,8 +1050,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CP215_FinalProject_6730084521_2025S2 [run]">
-    <configuration name="CP215_FinalProject_6730084521_2025S2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CP215_FinalProject_6730084521_2025S2 [javadoc]">
+    <configuration name="CP215_FinalProject_6730084521_2025S2 [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -913,7 +1062,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -927,7 +1076,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="CP215_FinalProject_6730084521_2025S2 [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CP215_FinalProject_6730084521_2025S2 [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -938,7 +1087,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="jar" />
+            <option value="javadoc" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1029,11 +1178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [javadoc]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [run]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [test]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [testClasses]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [jar]" />
-        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [build]" />
       </list>
     </recent_temporary>
   </component>

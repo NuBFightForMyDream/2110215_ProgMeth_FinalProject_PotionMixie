@@ -8,8 +8,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Tests timer constructor defaults and countdown behavior.
+ */
 class TimeLeftManagerTest {
 
+    /**
+     * Tests that the constructor uses the expected starting time for each level.
+     */
     @ParameterizedTest
     @CsvSource({
             "1, 90",
@@ -27,6 +33,9 @@ class TimeLeftManagerTest {
         assertEquals(expectedTime, timer.getTotalTimeFromLevel(level));
     }
 
+    /**
+     * Tests that decreaseTime reduces time until it reaches zero.
+     */
     @Test
     void decreaseTimeReducesTimeByOneUntilZero() {
         TimeLeftManager timer = new TimeLeftManager(1);

@@ -7,9 +7,15 @@ import gameelement.element.StarDustElement;
 
 import java.util.List;
 
+/**
+ * Potion made from Star Dust and Spark Ember.
+ */
 public class NovaSparkPotion extends BasePotion implements MergeAble {
 
     // Constructors
+    /**
+     * Creates a Nova Spark potion with its recipe, type, and power.
+     */
     public NovaSparkPotion() {
         super("Nova Spark Potion", "NovaSpark.png");
         setPotionRecipe( List.of(StarDustElement.class , SparkEmberElement.class) );
@@ -18,6 +24,12 @@ public class NovaSparkPotion extends BasePotion implements MergeAble {
     }
 
     // Methods
+    /**
+     * Checks whether the selected elements can merge into Nova Spark.
+     *
+     * @param elements selected elements from the merge station
+     * @return true when Star Dust and Spark Ember are selected
+     */
     @Override
     public boolean potionMatchesRecipe(List<BaseElement> elements) {
         return elements.size() == 2 &&

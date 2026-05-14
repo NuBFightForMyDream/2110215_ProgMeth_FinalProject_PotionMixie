@@ -19,8 +19,14 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Tests potion constructors, recipes, and potion setter behavior.
+ */
 class PotionTest {
 
+    /**
+     * Tests that each potion constructor sets metadata, recipe, type, and power.
+     */
     @ParameterizedTest
     @MethodSource("potions")
     void potionHasExpectedMetadata(
@@ -42,6 +48,9 @@ class PotionTest {
         assertInstanceOf(MergeAble.class, potion);
     }
 
+    /**
+     * Tests that recipe matching accepts both ingredient orders.
+     */
     @ParameterizedTest
     @MethodSource("potions")
     void potionRecipeMatchesBothIngredientOrders(
@@ -61,6 +70,9 @@ class PotionTest {
         assertTrue(potion.potionMatchesRecipe(List.of(second, first)));
     }
 
+    /**
+     * Tests that recipe matching rejects missing, repeated, or extra ingredients.
+     */
     @ParameterizedTest
     @MethodSource("potions")
     void potionRecipeRejectsWrongOrIncompleteIngredients(
@@ -83,6 +95,9 @@ class PotionTest {
         assertFalse(potion.potionMatchesRecipe(List.of(first, createElement(secondIngredient), wrong)));
     }
 
+    /**
+     * Tests that the potion power setter clamps negative values to zero.
+     */
     @Test
     void potionPowerCannotBeNegative() {
         BasePotion potion = new DreamMistPotion();
@@ -92,6 +107,11 @@ class PotionTest {
         assertEquals(0, potion.getPotionPower());
     }
 
+    /**
+     * Provides potion constructors and expected metadata.
+     *
+     * @return potion constructor test data
+     */
     private static Stream<Arguments> potions() {
         return Stream.of(
                 Arguments.of(
@@ -151,6 +171,12 @@ class PotionTest {
         );
     }
 
+    /**
+     * Creates an element instance from its class for recipe tests.
+     *
+     * @param elementType element class to instantiate
+     * @return new element instance
+     */
     private static BaseElement createElement(Class<? extends BaseElement> elementType) {
         if (elementType == HeartBerryElement.class) {
             return new HeartBerryElement();
@@ -167,6 +193,13 @@ class PotionTest {
         throw new IllegalArgumentException("Unsupported element type: " + elementType);
     }
 
+    /**
+     * Finds an element type that is not part of the expected recipe.
+     *
+     * @param firstIngredient first recipe ingredient
+     * @param secondIngredient second recipe ingredient
+     * @return element not used by the recipe
+     */
     private static BaseElement createWrongElement(
             Class<? extends BaseElement> firstIngredient,
             Class<? extends BaseElement> secondIngredient

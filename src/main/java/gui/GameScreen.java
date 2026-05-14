@@ -29,6 +29,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Optional;
 
+/**
+ * Gameplay screen that renders elements, potions, souls, timer, and drag actions.
+ */
 public class GameScreen extends AnchorPane {
 
     // TODO 0 : Fields
@@ -74,6 +77,12 @@ public class GameScreen extends AnchorPane {
     private int nextPotionSlot ;
 
     // TODO 1 : Constructors for GameScreen 
+    /**
+     * Builds the gameplay screen for a level and starts its timer.
+     *
+     * @param main main application used for screen changes
+     * @param level selected gameplay level
+     */
     public GameScreen(Main main , int level) {
         // 1.0 : define main screen & gameLogic
         this.main = main ;
@@ -150,6 +159,9 @@ public class GameScreen extends AnchorPane {
 
     // TODO : Methods
 
+    /**
+     * Starts the background timer loop for the current game screen.
+     */
     private void startTimerThread() {
         running = true;
         timerThread = new Thread(() -> {
@@ -182,6 +194,9 @@ public class GameScreen extends AnchorPane {
         timerThread.start();
     }
 
+    /**
+     * Stops the timer thread when leaving or ending the game.
+     */
     private void stopTimer() {
         running = false;
         if (timerThread != null) {
@@ -189,10 +204,22 @@ public class GameScreen extends AnchorPane {
         }
     }
 
+    /**
+     * Refreshes the time label from game logic.
+     */
     private void updateTimeLabel() {
         timeLabel.setText("" + gameLogic.getTimeLeft());
     }
 
+    /**
+     * Scales a transparent button from base artwork coordinates.
+     *
+     * @param button button to position
+     * @param x_pos x coordinate from the base design
+     * @param y_pos y coordinate from the base design
+     * @param width button width from the base design
+     * @param height button height from the base design
+     */
     public void setButtonLayout(Button button , int x_pos , int y_pos , int width , int height) {
         // using bind properties to set ratio for fitting screen (no need to set initial value)
         button.translateXProperty().bind(widthProperty().multiply(x_pos / BASE_WIDTH));
@@ -201,6 +228,12 @@ public class GameScreen extends AnchorPane {
         button.prefHeightProperty().bind(heightProperty().multiply(height / BASE_HEIGHT));
     }
 
+    /**
+     * Sets the level label text and position.
+     *
+     * @param levelLabel label that displays level progress
+     * @param level current level number
+     */
     public void levelLabelHandling(Label levelLabel, int level) {
         String levelMessage = level + " / 5" ;
         levelLabel.setText(levelMessage);
@@ -210,6 +243,11 @@ public class GameScreen extends AnchorPane {
         levelLabel.setLayoutY(225);
     }
 
+    /**
+     * Sets the time label text, font, and position.
+     *
+     * @param timeLabel label that displays remaining time
+     */
     public void timeLabelLayoutHandling(Label timeLabel) {
         updateTimeLabel();
         timeLabel.setFont( Font.font(28) );
@@ -217,6 +255,11 @@ public class GameScreen extends AnchorPane {
         timeLabel.setLayoutY(75);
     }
 
+    /**
+     * Sets the progress label text, font, and position.
+     *
+     * @param progressLabel label that displays defeated soul progress
+     */
     public void progressLabelLayoutHandling(Label progressLabel) {
         updateProgressLabel() ;
         progressLabel.setFont( Font.font(28) );
@@ -224,6 +267,11 @@ public class GameScreen extends AnchorPane {
         progressLabel.setLayoutY(150);
     }
 
+    /**
+     * Shows a confirmation dialog before returning to the main menu.
+     *
+     * @param backButton button that triggered the handler
+     */
     public void backButtonConfirmationHandler(Button backButton) {
         // Sent Alert to user if they want to Confirm Exit
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
@@ -239,6 +287,9 @@ public class GameScreen extends AnchorPane {
         }
     }
 
+    /**
+     * Refreshes the defeated soul progress label.
+     */
     public void updateProgressLabel() {
         if (gameLogic.getFirstSoul() == null) {
             progressLabel.setText("NO SOUL");
@@ -248,6 +299,11 @@ public class GameScreen extends AnchorPane {
         progressLabel.setText( gameLogic.getDefeatedSoulCount() + " / " + gameLogic.getTotalSoulRequired() ) ;
     }
 
+    /**
+     * Sends a selected element to the merge system and updates the screen.
+     *
+     * @param element element selected by the player
+     */
     public void handleElementButton(BaseElement element) {
         BasePotion potion = gameLogic.addElementToMerge(element);
         if (potion != null) {
@@ -262,10 +318,18 @@ public class GameScreen extends AnchorPane {
         }
     }
 
+    /**
+     * Clears merge selection display after the merge state changes.
+     */
     public void updateMergeBoardUI() {
         clearMergeSelectionSlots();
     }
 
+    /**
+     * Displays a created potion in the merge station.
+     *
+     * @param potion potion to display
+     */
     public void showPotionInMergeStation(BasePotion potion) {
         clearMergeSelectionSlots();
         int potionSlotIndex = getNextPotionSlotIndex();
@@ -273,6 +337,9 @@ public class GameScreen extends AnchorPane {
         mergeStationSlots[potionSlotIndex].getChildren().setAll(createPotionNode(potion, potionSlotIndex));
     }
 
+    /**
+     * Refreshes all visible soul slots from the current soul belt.
+     */
     public void updateSoulBeltUI() {
         clearStationSlots(soulBeltSlots);
 
