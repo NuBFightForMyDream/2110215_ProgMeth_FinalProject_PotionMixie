@@ -434,9 +434,13 @@
       <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/res/sand.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/resources/CP215_Mock_06_TheCatAndDog.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Year 2 Semester 2/.idea/Year 2 Semester 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/Demo 01 NumPy.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_02_basic_pandas.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_03_practical_pandas.ipynb" beforeDir="false" />
@@ -777,7 +781,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="175" />
+    <option name="cachedIndexableFilesCount" value="186" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -853,39 +857,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.CP215_FinalProject_6730084521_2025S2 [:application.Main.main()].executor": "Run",
-    "Gradle.CP215_FinalProject_6730084521_2025S2 [build].executor": "Run",
-    "Gradle.CP215_FinalProject_6730084521_2025S2 [jar].executor": "Run",
-    "Gradle.CP215_FinalProject_6730084521_2025S2 [javadoc].executor": "Run",
-    "Gradle.CP215_FinalProject_6730084521_2025S2 [run].executor": "Run",
-    "Gradle.CP215_FinalProject_6730084521_2025S2 [testClasses].executor": "Run",
-    "Gradle.CP215_FinalProject_6730084521_2025S2 [test].executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "gh-pages",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/nubfightformydream/Documents/Intania 108 Courses/2110215 Programming Methodology 2025T2/CP215_FinalProject_6730084521_2025S2/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3413793",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [:application.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [javadoc].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [testClasses].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CP215_FinalProject_6730084521_2025S2 [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nubfightformydream/Documents/Intania 108 Courses/2110215 Programming Methodology 2025T2/CP215_FinalProject_6730084521_2025S2/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3413793&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -897,7 +901,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CP215_FinalProject_6730084521_2025S2 [jar]">
+  <component name="RunManager" selected="Gradle.CP215_FinalProject_6730084521_2025S2 [run]">
     <configuration name="CP215_FinalProject_6730084521_2025S2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1025,11 +1029,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [jar]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [run]" />
-        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [build]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [test]" />
         <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [testClasses]" />
+        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [jar]" />
+        <item itemvalue="Gradle.CP215_FinalProject_6730084521_2025S2 [build]" />
       </list>
     </recent_temporary>
   </component>
