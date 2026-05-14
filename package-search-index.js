@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"application"},{"l":"gameelement.element"},{"l":"gameelement.potion"},{"l":"gameelement.soul"},{"l":"gamelogic"},{"l":"gui"}];updateSearchResults();
