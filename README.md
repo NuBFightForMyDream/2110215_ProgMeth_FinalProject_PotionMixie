@@ -136,6 +136,14 @@ The test suite covers:
 - JavaFX screen construction.
 - Resource availability.
 
+## Running JAR File 
+You have to run this file with this command (change path to downloads first)
+```
+cd Downloads
+java --module-path /Users/nubfightformydream/Downloads/javafx-sdk-24.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.web,javafx.media,javafx.swing -jar CP215_FinalProject_6730084521_2025S2-1-with-sources.jar
+```
+
+
 ## Generate Javadoc
 
 ```bash
