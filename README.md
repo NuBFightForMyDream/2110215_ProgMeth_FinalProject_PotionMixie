@@ -68,6 +68,26 @@ On Windows:
 gradlew.bat run
 ```
 
+## Play Online
+
+This repository also includes a browser-playable static version in `docs/`.
+It is designed for GitHub Pages.
+
+To host it:
+
+1. Push this repository to GitHub.
+2. Open the repository on GitHub.
+3. Go to `Settings` -> `Pages`.
+4. Set `Source` to `Deploy from a branch`.
+5. Select branch `main` and folder `/docs`.
+6. Save and wait for GitHub Pages to publish.
+
+The game link will be:
+
+```text
+https://<github-username>.github.io/<repository-name>/
+```
+
 ## How to Play
 
 1. Open the game and choose a level.
@@ -135,4 +155,3 @@ build/docs/javadoc/index.html
 ```
 
 The configured JAR task includes compiled classes and source files.
-
