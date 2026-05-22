@@ -434,7 +434,11 @@
       <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/java/res/sand.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Mock_06_TheCatAndDog/src/main/resources/CP215_Mock_06_TheCatAndDog.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Year 2 Semester 2/.idea/Year 2 Semester 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/Demo 01 NumPy.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_02_basic_pandas.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../External Courses/Essential Pandas P'Great Skooldio/demo_03_practical_pandas.ipynb" beforeDir="false" />
@@ -775,7 +779,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="186" />
+    <option name="cachedIndexableFilesCount" value="89" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
