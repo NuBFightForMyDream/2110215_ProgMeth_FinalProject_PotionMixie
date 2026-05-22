@@ -1,0 +1,12 @@
+# Ignore generated documentation
+docs/** linguist-generated=true
+
+# Ignore build outputs
+build/** linguist-generated=true
+
+# Ignore minified/generated web assets
+*.min.js linguist-generated=true
+*.min.css linguist-generated=true
+
+# Treat Java as primary language
+*.java linguist-language=Java
